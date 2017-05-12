@@ -105,7 +105,7 @@ public class DecodeActivity extends Activity implements SurfaceHolder.Callback
 
 			// new BufferInfo();
 
-			ByteBuffer[] inputBuffers = decoder.getInputBuffers();
+			ByteBuffer[] inputBuffers  = decoder.getInputBuffers();
 			ByteBuffer[] outputBuffers = decoder.getOutputBuffers();
 			if (null == inputBuffers) 
 			{
